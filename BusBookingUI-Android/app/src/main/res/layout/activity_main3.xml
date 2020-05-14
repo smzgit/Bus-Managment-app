@@ -46,7 +46,7 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="-16dp"
@@ -199,7 +199,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="@font/calibri"
-                                    android:text="$600.00"
+                                    android:text="Rs.600.00"
                                     android:textAlignment="textEnd"
                                     android:textColor="#f5a622"
                                     android:textSize="24sp"
@@ -249,14 +249,14 @@
                             <LinearLayout
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:gravity="center"
-                                android:layout_weight="33.3">
+                                android:layout_weight="33.3"
+                                android:gravity="center">
 
                                 <ImageView
                                     android:layout_width="16dp"
                                     android:layout_height="16dp"
                                     android:layout_marginRight="4dp"
-                                    android:src="@drawable/booked_img"/>
+                                    android:src="@drawable/booked_img" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -272,14 +272,14 @@
                             <LinearLayout
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:gravity="center"
-                                android:layout_weight="33.3">
+                                android:layout_weight="33.3"
+                                android:gravity="center">
 
                                 <ImageView
                                     android:layout_width="16dp"
                                     android:layout_height="16dp"
                                     android:layout_marginRight="4dp"
-                                    android:src="@drawable/available_img"/>
+                                    android:src="@drawable/available_img" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -293,14 +293,14 @@
                             <LinearLayout
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:gravity="center"
-                                android:layout_weight="33.3">
+                                android:layout_weight="33.3"
+                                android:gravity="center">
 
                                 <ImageView
                                     android:layout_width="16dp"
                                     android:layout_height="16dp"
                                     android:layout_marginRight="4dp"
-                                    android:src="@drawable/your_seat_img"/>
+                                    android:src="@drawable/your_seat_img" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -930,6 +930,17 @@
 
 
                 </android.support.v7.widget.CardView>
+
+                <Button
+                    android:id="@+id/pay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonshape"
+                    android:text="Proceed to Pay "
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
 
             </LinearLayout>

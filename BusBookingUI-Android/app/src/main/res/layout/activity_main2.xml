@@ -45,7 +45,7 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="-16dp"
@@ -195,16 +195,16 @@
                             android:layout_weight="40"
                             android:gravity="center"
                             android:orientation="vertical">
+
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/calibri"
-                                android:text="$600.00"
+                                android:text="Rs.600.00"
                                 android:textAlignment="textEnd"
-                                android:textSize="24sp"
-                                android:textStyle="bold"
                                 android:textColor="#f5a622"
-                                />
+                                android:textSize="24sp"
+                                android:textStyle="bold" />
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -277,16 +277,16 @@
                             android:layout_weight="40"
                             android:gravity="center"
                             android:orientation="vertical">
+
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/calibri"
-                                android:text="$560.00"
+                                android:text="Rs.560.00"
                                 android:textAlignment="textEnd"
-                                android:textSize="24sp"
-                                android:textStyle="bold"
                                 android:textColor="#f5a622"
-                                />
+                                android:textSize="24sp"
+                                android:textStyle="bold" />
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -359,16 +359,16 @@
                             android:layout_weight="40"
                             android:gravity="center"
                             android:orientation="vertical">
+
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/calibri"
-                                android:text="$450.00"
+                                android:text="Rs.450.00"
                                 android:textAlignment="textEnd"
-                                android:textSize="24sp"
-                                android:textStyle="bold"
                                 android:textColor="#f5a622"
-                                />
+                                android:textSize="24sp"
+                                android:textStyle="bold" />
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -441,16 +441,16 @@
                             android:layout_weight="40"
                             android:gravity="center"
                             android:orientation="vertical">
+
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/calibri"
-                                android:text="$375.00"
+                                android:text="Rs.375.00"
                                 android:textAlignment="textEnd"
-                                android:textSize="24sp"
-                                android:textStyle="bold"
                                 android:textColor="#f5a622"
-                                />
+                                android:textSize="24sp"
+                                android:textStyle="bold" />
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -523,16 +523,16 @@
                             android:layout_weight="40"
                             android:gravity="center"
                             android:orientation="vertical">
+
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/calibri"
-                                android:text="$700.00"
+                                android:text="Rs.700.00"
                                 android:textAlignment="textEnd"
-                                android:textSize="24sp"
-                                android:textStyle="bold"
                                 android:textColor="#f5a622"
-                                />
+                                android:textSize="24sp"
+                                android:textStyle="bold" />
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"

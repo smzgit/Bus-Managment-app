@@ -9,8 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Sign_up"></activity>
+        <activity android:name=".Payment" />
+        <activity android:name=".MainActivity" />
         <activity
-            android:name="com.sourabh.platform.busbookingappui.MainActivity"
+            android:name=".first"
             android:configChanges="orientation|screenSize"
             android:label=""
             android:screenOrientation="portrait"
@@ -23,18 +26,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.sourabh.platform.busbookingappui.Main2Activity"
+            android:name=".Main2Activity"
             android:configChanges="orientation|screenSize"
             android:label=""
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden|adjustPan" />
-        <activity android:name="com.sourabh.platform.busbookingappui.Main3Activity"
+        <activity
+            android:name=".Main3Activity"
             android:configChanges="orientation|screenSize"
             android:label=""
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
-            android:windowSoftInputMode="stateHidden|adjustPan" ></activity>
+            android:windowSoftInputMode="stateHidden|adjustPan" />
     </application>
 
 </manifest>
